@@ -1,0 +1,23 @@
+body{
+    background-color:  #f4f4f4;
+}
+header{
+    font-family: 'arial';
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+section{
+    border: solid 2px #dcdcdc;
+}
+p{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 20px;
+}
