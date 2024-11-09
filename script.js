@@ -21,18 +21,18 @@ console.table(historique);
 function depotArgent(solde, depot){
     solde += depot;
 
-    console.log("Vous avez déposé 200 euros. Nouveau solde : " +solde+ " euros.");
-    historique.push("Dépôt de 200 euros. Solde : " +solde+ " euros.");
+    console.log("Vous avez déposé " +depot+ " euros. Nouveau solde : " +solde+ " euros.");
+    historique.push("Dépôt de " +depot+ " euros. Solde : " +solde+ " euros.");
 }
 
 function retraitArgent(solde, retrait){
     if (solde >= retrait) {
         solde -= retrait;
-        console.log("Vous avez retiré 150 euros. Nouveau solde : " +solde+ " euros.");
-        historique.push("Retrait de 150 euros. Solde : " +solde+ " euros.");
+        console.log("Vous avez retiré " +retrait+ " euros. Nouveau solde : " +solde+ " euros.");
+        historique.push("Retrait de " +retrait+ " euros. Solde : " +solde+ " euros.");
     }else{
         console.log("Solde insuffisant pour effectuer ce retrait.");
-        historique.push("Tentative de retrait de 150 euros. Solde insuffisant. Solde : " +solde+ " euros.");
+        historique.push("Tentative de retrait de " +retrait+ " euros. Solde insuffisant. Solde : " +solde+ " euros.");
     }
 }
 
