@@ -35,6 +35,7 @@ function retraitArgent(solde, retrait){
         historique.push("Tentative de retrait de 150 euros. Solde insuffisant. Solde : " +solde+ " euros.");
     }
 }
+
 function calculInteret(solde, tauxInteret){
     solde += solde * tauxInteret;
     console.log("Intérêts annuels de 3% ajoutés. Nouveau solde : " +solde+ " euros.");
