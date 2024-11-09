@@ -16,7 +16,7 @@ depotArgent(solde, nouveauDepot);
 retraitArgent(solde, nouveauRetrait);
 calculInteret(solde, tauxInteret);
 
-console.table("Historique des transactions : " +historique);
+console.table(historique);
 
 function depotArgent(solde, depot){
     solde += depot;
